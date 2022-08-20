@@ -13,9 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    @IBAction func newWindowTapped(_ sender: Any) {
-        let first = FirstViewController()
-        present(first, animated: true)
+    @IBAction func buttonTapped(_ sender: Any) {
+        let firstVC = FirstViewController()
+        present(firstVC, animated: true)
     }
 }
 
